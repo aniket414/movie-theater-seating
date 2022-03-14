@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Theater.Seating.Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Theater.Seating.UnitTests", "Movie.Theater.Seating.UnitTests\Movie.Theater.Seating.UnitTests.csproj", "{30A33380-8E35-48DF-AC6D-6247D775E4DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Theater.Seating.Service", "Movie.Theater.Seating.Service\Movie.Theater.Seating.Service.csproj", "{66C0BA73-EDB1-4149-A157-0AF899C3B474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{30A33380-8E35-48DF-AC6D-6247D775E4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30A33380-8E35-48DF-AC6D-6247D775E4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30A33380-8E35-48DF-AC6D-6247D775E4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C0BA73-EDB1-4149-A157-0AF899C3B474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C0BA73-EDB1-4149-A157-0AF899C3B474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C0BA73-EDB1-4149-A157-0AF899C3B474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C0BA73-EDB1-4149-A157-0AF899C3B474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

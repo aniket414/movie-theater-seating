@@ -13,4 +13,7 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Movie.Theater.Seating.Service\Movie.Theater.Seating.Service.csproj" />
+  </ItemGroup>
 </Project>
