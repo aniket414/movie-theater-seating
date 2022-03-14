@@ -1,0 +1,13 @@
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.csproj.AssemblyReference.cache
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.AssemblyInfoInputs.cache
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.AssemblyInfo.cs
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.csproj.CoreCompileInputs.cache
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/bin/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.deps.json
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/bin/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.runtimeconfig.json
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/bin/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.runtimeconfig.dev.json
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/bin/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.dll
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/bin/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.pdb
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.dll
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.pdb
+/Users/aniket/movie-theater-seating/Movie.Theater.Seating/Movie.Theater.Seating.Console/obj/Debug/netcoreapp3.1/Movie.Theater.Seating.Console.genruntimeconfig.cache
