@@ -1,0 +1,68 @@
+R0001 J0,J1,J2,J3,J4
+
+R0002 H0,H1,H2,H3,H4,H5,H6,H7,H8,H9,H10,H11,H12,H13,H14,H15,H16,H17,H18
+
+R0003 J8,J9,J10,J11,J12,J13,J14,J15,J16,J17,J18,J19
+
+R0004 F0,F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,F11,F12,F13,F14,F15,F16
+
+R0005 D0,D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19
+
+R0006 B0,B1,B2,B3,B4,B5,B6,B7,B8,B9
+
+R0007 Seats unavailable for the requested number of tickets.
+
+R0008 B13
+
+R0009 Seats unavailable for the requested number of tickets.
+
+R0010 B17
+
+R0011 Seats unavailable for the requested number of tickets.
+
+R0012 Seats unavailable for the requested number of tickets.
+
+R0013 Seats unavailable for the requested number of tickets.
+
+R0014 Seats unavailable for the requested number of tickets.
+
+R0015 Seats unavailable for the requested number of tickets.
+
+R0016 Seats unavailable for the requested number of tickets.
+
+R0017 Seats unavailable for the requested number of tickets.
+
+R0018 Seats unavailable for the requested number of tickets.
+
+R0019 Seats unavailable for the requested number of tickets.
+
+R0020 Seats unavailable for the requested number of tickets.
+
+R0021 Seats unavailable for the requested number of tickets.
+
+R0022 Seats unavailable for the requested number of tickets.
+
+R0023 Seats unavailable for the requested number of tickets.
+
+R0024 Seats unavailable for the requested number of tickets.
+
+R0025 Seats unavailable for the requested number of tickets.
+
+R0026 Seats unavailable for the requested number of tickets.
+
+R0027 Seats unavailable for the requested number of tickets.
+
+R0028 Seats unavailable for the requested number of tickets.
+
+R0029 Seats unavailable for the requested number of tickets.
+
+R0030 Seats unavailable for the requested number of tickets.
+
+R0031 Seats unavailable for the requested number of tickets.
+
+R0032 Seats unavailable for the requested number of tickets.
+
+R0033 Seats unavailable for the requested number of tickets.
+
+R0034 Seats unavailable for the requested number of tickets.
+
