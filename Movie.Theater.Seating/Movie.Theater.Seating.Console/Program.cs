@@ -59,6 +59,10 @@ namespace Movie.Theater.Seating
                 bookingRequests = File.ReadAllLines(args[0]);
                 success = true;
             }
+            catch (IndexOutOfRangeException)
+            {
+                Console.WriteLine("File path not specified! Using the default file.");
+            }
             catch (FileNotFoundException)
             {
                 Console.WriteLine("Cannot find the specified file! Using the default file.");

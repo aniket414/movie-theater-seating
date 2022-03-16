@@ -9,7 +9,7 @@ namespace Movie.Theater.Seating.Service
     {
         private List<TheaterRow> Rows;
         private List<TheaterRow> rowsWhereBookingCanBeDone;
-        private int TotalSeats { get; set; }
+        public int TotalSeats { get; set; }
         private string Seat { get; set; }
 
         public BookingService(int numberOfRowsInTheater)
@@ -50,24 +50,7 @@ namespace Movie.Theater.Seating.Service
             // When sufficient seats are not available in one row split them in other rows.
             if (assignedSeats.Count == 0)
             {
-                rowsWhereBookingCanBeDone = Rows.Where(row => row.Row % 2 != 0).ToList();
-
-                rowsWhereBookingCanBeDone.Sort(delegate (TheaterRow x, TheaterRow y) {
-                    return y.EmptySeats - x.EmptySeats;
-                });
-
-                int rowIndex = 0;
-                while (rowIndex < rowsWhereBookingCanBeDone.Count && numberOfSeats > 0)
-                {
-                    if (!rowsWhereBookingCanBeDone[rowIndex].IsFilled)
-                    {
-                        int remainingSeats = rowsWhereBookingCanBeDone[rowIndex].EmptySeats;
-                        (Seat, TotalSeats) = rowsWhereBookingCanBeDone[rowIndex].BookSeatsInRow(numberOfSeats, TotalSeats);
-                        assignedSeats.Add(Seat);
-                        numberOfSeats = numberOfSeats - Math.Min(remainingSeats, numberOfSeats);
-                    }
-                    rowIndex++;
-                }
+                assignedSeats = BookSeatsInDifferentRow(assignedSeats, numberOfSeats);
             }
 
             result.Append(bookingId).Append(" ")
@@ -75,6 +58,30 @@ namespace Movie.Theater.Seating.Service
                 .Append("\n");
 
             return result.ToString();
+        }
+
+        private List<String> BookSeatsInDifferentRow(List<String> assignedSeats, int numberOfSeats)
+        {
+            rowsWhereBookingCanBeDone = Rows.Where(row => row.Row % 2 == 0).ToList();
+
+            rowsWhereBookingCanBeDone.Sort(delegate (TheaterRow x, TheaterRow y) {
+                return y.EmptySeats - x.EmptySeats;
+            });
+
+            int rowIndex = 0;
+            while (rowIndex < rowsWhereBookingCanBeDone.Count && numberOfSeats > 0)
+            {
+                if (!rowsWhereBookingCanBeDone[rowIndex].IsFilled)
+                {
+                    int remainingSeats = rowsWhereBookingCanBeDone[rowIndex].EmptySeats;
+                    (Seat, TotalSeats) = rowsWhereBookingCanBeDone[rowIndex].BookSeatsInRow(numberOfSeats, TotalSeats);
+                    assignedSeats.Add(Seat);
+                    numberOfSeats = numberOfSeats - Math.Min(remainingSeats, numberOfSeats);
+                }
+                rowIndex++;
+            }
+
+            return assignedSeats;
         }
     }
 }

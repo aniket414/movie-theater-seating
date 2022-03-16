@@ -11,7 +11,7 @@ namespace Movie.Theater.Seating.Service
 
             if (numberOfSeats <= 0 || string.IsNullOrWhiteSpace(bookingId))
             {
-                result.Append("Invalid values, please check the input.\n");
+                result.Append(bookingId + " ").Append("Invalid values, please check the input.\n");
                 return result.ToString();
             }
 
