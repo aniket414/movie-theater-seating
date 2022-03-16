@@ -17,16 +17,16 @@ The console application is designed for a movie theater seating that maximizes c
 ## How to run the console app via terminal
 
 1. Open Terminal at movie-theater-seating/Movie.Theater.Seating
-2. To build the solution execute Run the .jar file MovieSeater.jar using the below command\
+2. To build the solution execute the below command\
     Command:
-    > dotnet build Movie.Theater.Seating.sln \\
-    Or \\
+    > dotnet build Movie.Theater.Seating.sln  
+    Or  
     > dotnet msbuild Movie.Theater.Seating.sln
 3. To run the console app\
     Command:
-    > dotnet run --project ./Movie.Theater.Seating.Console/Movie.Theater.Seating.Console.csproj -- "/Users/aniket/movie-theater-seating/booking/input.txt"\
-    If file path is not specified, the program will pick the default input file present inside booking folder.\
-    After executing the above command the path to the output file will be displayed on the terminal.\
+    > dotnet run --project ./Movie.Theater.Seating.Console/Movie.Theater.Seating.Console.csproj -- "/Users/aniket/movie-theater-seating/booking/input.txt"  
+    If file path is not specified, the program will pick the default input file present inside booking folder.  
+    After executing the above command the path to the output file will be displayed on the terminal.  
 4. To run the unit tests\
     Command:
     > dotnet test ./Movie.Theater.Seating.UnitTests/Movie.Theater.Seating.UnitTests.csproj
