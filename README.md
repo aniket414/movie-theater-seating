@@ -5,7 +5,7 @@ The console application is designed for a movie theater seating that maximizes c
 
 ## Assumptions
 
-1. Seats will be booked in FIFO fasion i.e., on a first-come first-serve basis.
+1. Seats will be booked in FIFO fashion i.e., on a first-come first-serve basis.
 2. To maximize customer satisfaction we will book seat farthest from the screen first and keep on moving forward as the booking requests increases.
 3. To maximise the customer satisfaction we also make sure to book the seats together for each booking if possible.
 4. If the next available fartest row from the screen can't fit all the seats of a reservation then we move on to the next available row.
@@ -17,15 +17,16 @@ The console application is designed for a movie theater seating that maximizes c
 ## How to run the console app via terminal
 
 1. Open Terminal at movie-theater-seating/Movie.Theater.Seating
-2. To build the solution execute the below command\
+2. To build the solution execute either of the below command\
     Command:
     > dotnet build Movie.Theater.Seating.sln  
-    Or  
     > dotnet msbuild Movie.Theater.Seating.sln
 3. To run the console app\
     Command:
     > dotnet run --project ./Movie.Theater.Seating.Console/Movie.Theater.Seating.Console.csproj -- "/Users/aniket/movie-theater-seating/booking/input.txt"  
+    
     If file path is not specified, the program will pick the default input file present inside booking folder.  
+    
     After executing the above command the path to the output file will be displayed on the terminal.  
 4. To run the unit tests\
     Command:
