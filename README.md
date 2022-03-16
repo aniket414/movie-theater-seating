@@ -24,8 +24,8 @@ The console application is designed for a movie theater seating that maximizes c
 3. To run the console app\
     Command:
     > dotnet run --project ./Movie.Theater.Seating.Console/Movie.Theater.Seating.Console.csproj -- "/Users/aniket/movie-theater-seating/booking/input.txt"  
-    - If file path is not specified, the program will pick the default input file present inside booking folder.  
-    - After executing the above command the path to the output file will be displayed on the terminal.  
+    + If file path is not specified, the program will pick the default input file present inside booking folder.  
+    + After executing the above command the path to the output file will be displayed on the terminal.  
 4. To run the unit tests\
     Command:
     > dotnet test ./Movie.Theater.Seating.UnitTests/Movie.Theater.Seating.UnitTests.csproj
