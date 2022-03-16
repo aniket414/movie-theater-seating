@@ -1,9 +1,9 @@
-## Movie Theater Seating
+# Movie Theater Seating
 
-Tech Stack: C#, DotNet Core 3.1, xUnit
+Tech Stack: C#, DotNet Core 3.1, xUnit\
 The console application is designed for a movie theater seating that maximizes customer satisfaction as well as customer safety.
 
-# Assumptions
+## Assumptions
 
 1. Seats will be booked in FIFO fasion i.e., on a first-come first-serve basis.
 2. To maximize customer satisfaction we will book seat farthest from the screen first and keep on moving forward as the booking requests increases.
@@ -14,24 +14,24 @@ The console application is designed for a movie theater seating that maximizes c
 7. If booking for seats is not possible in one single row then we split the booking into two different rows which have seats available.
 8. To ensure maximum customer safety we keep a buffer of three seats and one row between each booking request.
 
-# How to run the console app via terminal
+## How to run the console app via terminal
 
 1. Open Terminal at movie-theater-seating/Movie.Theater.Seating
-2. To build the solution execute Run the .jar file MovieSeater.jar using the below command
-    Command:
-    > dotnet build Movie.Theater.Seating.sln 
-    Or
-    > dotnet msbuild Movie.Theater.Seating.sln
-3. To run the console app
-    Command:
-    > dotnet run --project ./Movie.Theater.Seating.Console/Movie.Theater.Seating.Console.csproj -- "/Users/aniket/movie-theater-seating/booking/input.txt"
-    If file path is not specified, the program will pick the default input file present inside booking folder.
-    After executing the above command the path to the output file will be displayed on the terminal.
-4. To run the unit tests
-    Command:
+2. To build the solution execute Run the .jar file MovieSeater.jar using the below command\
+    Command:\
+    > dotnet build Movie.Theater.Seating.sln\
+    Or\
+    > dotnet msbuild Movie.Theater.Seating.sln\
+3. To run the console app\
+    Command:\
+    > dotnet run --project ./Movie.Theater.Seating.Console/Movie.Theater.Seating.Console.csproj -- "/Users/aniket/movie-theater-seating/booking/input.txt"\
+    If file path is not specified, the program will pick the default input file present inside booking folder.\
+    After executing the above command the path to the output file will be displayed on the terminal.\
+4. To run the unit tests\
+    Command:\
     > dotnet test ./Movie.Theater.Seating.UnitTests/Movie.Theater.Seating.UnitTests.csproj
 
-# Solution Description:
+## Solution Description:
 
 1. Movie.Theater.Seating.Console: It has the main logic of driving the program. It reads the input file calls the service layer for booking and returns output.
 2. Movie.Theater.Seating.Service: This is the service layer implementation where all the main logic of booking seats in theater is written.
