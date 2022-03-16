@@ -19,15 +19,15 @@ The console application is designed for a movie theater seating that maximizes c
 1. Open Terminal at movie-theater-seating/Movie.Theater.Seating
 2. To build the solution execute Run the .jar file MovieSeater.jar using the below command\
     Command:
-    > dotnet build Movie.Theater.Seating.sln
-    Or\
+    > dotnet build Movie.Theater.Seating.sln \\
+    Or \\
     > dotnet msbuild Movie.Theater.Seating.sln
 3. To run the console app\
     Command:
     > dotnet run --project ./Movie.Theater.Seating.Console/Movie.Theater.Seating.Console.csproj -- "/Users/aniket/movie-theater-seating/booking/input.txt"\
     If file path is not specified, the program will pick the default input file present inside booking folder.\
     After executing the above command the path to the output file will be displayed on the terminal.\
-4. To run the unit tests
+4. To run the unit tests\
     Command:
     > dotnet test ./Movie.Theater.Seating.UnitTests/Movie.Theater.Seating.UnitTests.csproj
 
@@ -35,7 +35,7 @@ The console application is designed for a movie theater seating that maximizes c
 
 1. Movie.Theater.Seating.Console: It has the main logic of driving the program. It reads the input file calls the service layer for booking and returns output.
 2. Movie.Theater.Seating.Service: This is the service layer implementation where all the main logic of booking seats in theater is written.
-    1. IBookingService: Interface which specifies contract for booking seats. It is implemented by BookingService.
-    2. BookingService: Process the booking of individual request and implements the IBookingService contracts.
-    3. TheaterRow: Has the logic of operations which can be performed on each row such as book seats in row and keep a buffer of three seats for customer safety.
+    - IBookingService: Interface which specifies contract for booking seats. It is implemented by BookingService.
+    - BookingService: Process the booking of individual request and implements the IBookingService contracts.
+    - TheaterRow: Has the logic of operations which can be performed on each row such as book seats in row and keep a buffer of three seats for customer safety.
 3. Movie.Theater.Seating.UnitTests: Unit tests for various scenarios are written here.
